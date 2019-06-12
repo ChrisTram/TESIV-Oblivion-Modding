@@ -10,3 +10,17 @@ I didn't reduce the gold value (which is honestly maybe still way too high) but 
 
 Creature Diversity from Zaldir is of course needed, otherwise my mod will have no effect. Place my mod below it in the load order.
 `https://www.nexusmods.com/oblivion/mods/26634` 
+
+## Custom Interface
+
+Soon
+
+## What are those .ini files ?
+
+I'm modding Oblivion since more than 10 years now. I have a very stable game (which runs marvelously well) with my own custom interface (That I'll upload) and a lot of modifications to keep mods working together. Those .ini files can help people having troubles with the same mods I'm using (you have the BashLoadOrder). 
+
+They're also excellent for someone who's starting to mod his game and doesn't want to lose time configuring some big mods.
+Oblivion Reloaded = I removed all unnecessary things (and stuff known to have problems) and effects I found ugly just to keep things that improve performances and add quality of life changes to the game.
+Enhanced Economy = I set it realistic but not really hard, you'll not have to farm but you'll not be given houses almost free like in the base game.
+
+Keep in mind than some mods aren't using .esp but force copy and past install (replacing original files), so all my mod will not appear. You'll also not see important softwares to use (ex : TES4LODGen)
