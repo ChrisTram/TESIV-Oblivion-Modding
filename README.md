@@ -25,4 +25,4 @@ Oblivion Reloaded = I removed all unnecessary things (and stuff known to have pr
 
 Enhanced Economy = I set it realistic but not really hard, you'll not have to farm but you'll not be given houses almost free like in the base game.
 
-Keep in mind than some mods aren't using .esp but force copy and past install (replacing original files), so all my mod will not appear. You'll also not see important softwares to use (ex : TES4LODGen)
+Keep in mind than some mods aren't using .esp but force copy and past install (replacing original files), so all my mods will not appear. You'll also not see important softwares to use (ex : TES4LODGen, OMOD, Wrye Bash...)
