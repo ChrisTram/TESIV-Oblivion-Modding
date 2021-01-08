@@ -1,0 +1,113 @@
+
+<!--	DARNIFIED COMMON CONTROLS CONFIG 1.1
+-->
+<rect name="darnui_common_settings">
+	<_configversion> 1.1 </_configversion>
+<!-- Horizontal sliders -->
+
+	<!-- Quantity display text (def. 2,0,0,0,160) -->
+	<_qtyfont> 2 </_qtyfont>
+	<_qtyred> 0 </_qtyred>
+	<_qtygreen> 0 </_qtygreen>
+	<_qtyblue> 0 </_qtyblue>
+	<_qtyalpha> 160 </_qtyalpha>
+	<!-- X/Y Offset for qty display text in sliders (def. 0) -->
+	<_qtyyoffset> 0 </_qtyyoffset>
+	<_qtyxoffset> 0 </_qtyxoffset>
+
+</rect>
+
+<!-- Strings -->
+
+<rect name="darnui_strings">
+<!-- Settings -->
+	<!-- Labels -->
+	<_sl_compass_sh>Boussole</_sl_compass_sh>
+	<_sl_compass_pos>Positionnement</_sl_compass_pos>
+	<_sl_compass_width>Ampleur</_sl_compass_width>
+	<_sl_compass_frame>Encadrement</_sl_compass_frame>
+	<_sl_poi_reveal>Apport distance POI</_sl_poi_reveal>
+	<_sl_qm>Marqueurs de Quête</_sl_qm>
+	<_sl_pm>Marqueur du Joueur</_sl_pm>
+	<_sl_dl>Lieux Visités</_sl_dl>
+	<_sl_kl>Emplacements Connus</_sl_kl>
+	<_sl_me>Effets Magiques</_sl_me>
+	<_sl_me_pos>Positionnement</_sl_me_pos>
+	<_sl_perrow>Par Ligne</_sl_perrow>
+	<_sl_at>Arc de Minuterie</_sl_at>
+	<_sl_tt>Texte de Minuterie</_sl_tt>
+	<_sl_li>Info d'Emplacement</_sl_li>
+	<_sl_li_pos>Positionnement</_sl_li_pos>
+	<_sl_li_frame>Encadrement</_sl_li_frame>
+	<_sl_hud_sh>HUD</_sl_hud_sh>
+	<_sl_hud_gfx_alpha>Translucidité Gfx</_sl_hud_gfx_alpha>
+	<_sl_hud_txt_alpha>Translucidité Textes</_sl_hud_txt_alpha>
+	<_sl_hud_scale>Échelle</_sl_hud_scale>
+	<_sl_sb>Barres d'état</_sl_sb>
+	<_sl_sb_fade>Auto-effacement d'état</_sl_sb_fade>
+	<_sl_sb_cutoff>Limite en % auto-effac.</_sl_sb_cutoff>
+	<_sl_sb_pos>Positionnement d'état</_sl_sb_pos>
+	<_sl_wi>Icône d'Arme</_sl_wi>
+	<_sl_wi_pos>Positionnement Arme</_sl_wi_pos>
+	<_sl_durability>Barre de  Durabilité</_sl_durability>
+	<_sl_si>Icône de Sort</_sl_si>
+	<_sl_si_pos>Positionnement Sort</_sl_si_pos>
+	<_sl_level>Icône Niveau Sup.</_sl_level>
+	<_sl_level_pos>Position. Niveau Sup.</_sl_level_pos>
+	<_sl_se>Oeil de Discrètion</_sl_se>
+	<_sl_se_pos>Position. Oeil D.</_sl_se_pos>
+	<_sl_ch>Viseur</_sl_ch>
+	<_sl_3pch>Viseur 3P</_sl_3pch>
+	<_sl_ehb>Barre santé IA</_sl_ehb>
+	<_sl_he>Cacher Essentiel</_sl_he>
+	<_sl_msg>Messages</_sl_msg>
+	<_sl_msg_pos>Positionnement</_sl_msg_pos>
+	<_sl_msg_ca>Centrer</_sl_msg_ca>
+	<_sl_msg_gi>Icône Générique</_sl_msg_gi>
+	<_sl_step>Seuil</_sl_step>
+	<!-- Help texts -->
+	<_hlp_intro>Il s'agit de la page de gestion de l'interface utilisateur. Une fois la partie chargée, les valeurs sont lues depuis hudmainmenu_config.xml. Les modifications seront perdues lorsque vous quitterez le jeu, alors faites une capture d'écran ou un mémo de la configuration que vous souhaitez conserver.</_hlp_intro>
+	<_hlp_compass>Bascule l'affichage de la boussole. (_cv)</_hlp_compass>
+	<_hlp_compass_pos>Ajuste la position de la boussole. (_cx, _cy)</_hlp_compass_pos>
+	<_hlp_compass_width>Ajuste la taille de la boussole. Aucune influence sur l'encadrement. (_cw)</_hlp_compass_width>
+	<_hlp_compass_frame>Bascule l'affichage du cadre de la boussole. (_cshow_frame)</_hlp_compass_frame>
+	<_hlp_poi_reveal>A partir de quelle distance en mètres les indications de le boussole deviennent visibles. (default 12000). (_reveal)</_hlp_poi_reveal>
+	<_hlp_qm>Bascule l'affichage des marqueurs de quête sur la boussole. (_cshow_questtarget)</_hlp_qm>
+	<_hlp_pm>Bascule l'affichage du marqueur du joueur sur la boussole. (_cshow_playermarker)</_hlp_pm>
+	<_hlp_dl>Bascule l'affichage des lieux explorés (voyage rapide possible) sur la boussole. (_cshow_discovered)</_hlp_dl>
+	<_hlp_kl>Bascule l'affichage des lieux inexplorés (voyage rapide impossible) sur la boussole. (_cshow_known)</_hlp_kl>
+	<_hlp_me>Bascule l'affichage des indications de la magie effective. (_etvisible)</_hlp_me>
+	<_hlp_me_pos>Positionnement des indications de la magie effective. Assurez-vous qu'il y ait de la place pour tous les autres icônes de gauche et/ou de dessous (en fonction de la valeur du Par ligne). (_aex, _aey)</_hlp_me_pos>
+	<_hlp_perrow>Nombre d'icônes affichables pour chaque ligne. La limite du jeu est de 8 à la fois. (_aeipr)</_hlp_perrow>
+	<_hlp_at>Bascule l'affichage de l'arc de minuterie au-dessus des icônes d'effet. (_arctimer)</_hlp_at>
+	<_hlp_tt>Bascule l'affichage du texte de minuterie sur l'icône d'effet. (_showcdtext)</_hlp_tt>
+	<_hlp_li>Bascule l'affichage de l'indication de l'emplacement actuel. (_showlocinfo)</_hlp_li>
+	<_hlp_li_pos>Ajuste la position de l'indication de l'emplacement actuel. (_lx, _ly)</_hlp_li_pos>
+	<_hlp_li_frame>Bascule l'encadrement de l'indication sur l'emplacement actuel. (_showlocframe)</_hlp_li_frame>
+	<_hlp_hudscale>Valeur générale pour la taille des éléments hud. (_hudscale)</_hlp_hudscale>
+	<_hlp_gfx_hudalpha>Valeur alpha générale pour les éléments gfx hud. (_gfx_hudalpha)</_hlp_gfx_hudalpha>
+	<_hlp_txt_hudalpha>Valeur alpha générale pour les éléments textes hud. (_txt_hudalpha)</_hlp_txt_hudalpha>
+	<_hlp_sb>Bascule l'affichage des barres d'état. (_sbvisible)</_hlp_sb>
+	<_hlp_sb_fade>Bascule l'Auto-effacement des Barres d'état. Si actif, les barres s'effacent en se remplissant (dépend de la Coupure de l'Auto-effacement. (_status_autofade)</_hlp_sb_fade>
+	<_hlp_sb_co>Quand une barre d'état devrait disparaître. Si défini à 120, la barre sera visible à 20% lorsqu'elle sera remplie. Mettez à 80, et vous ne verrez pas la barre avant qu'elle ne soit à moins de 80% de son plein. (_sbco)</_hlp_sb_co>
+	<_hlp_sb_pos>Ajuste la position des barres d'état. (_statusallx, _statusally)</_hlp_sb_pos>
+	<_hlp_wi>Bascule l'affichage de l'icône de l'arme. (_wep_visible)</_hlp_wi>
+	<_hlp_wi_pos>Ajuste la position de l'icône de l'arme. (_wepx, _wepy)</_hlp_wi_pos>
+	<_hlp_durability>Bascule l'affichage de la barre de durabilité. (_durbarvisible)</_hlp_durability>
+	<_hlp_si>Bascule l'affichage de l'icône du sort. (_miv)</_hlp_si>
+	<_hlp_si_pos>Ajuste la position de l'icône du sort. (_mix, _miy)</_hlp_si_pos>
+	<_hlp_level>Bascule l'affichage de l'icône de niveau supérieur. (_liv)</_hlp_level>
+	<_hlp_level_pos>Ajuste la position de l'icône de niveau supérieur. (_lix, _liy)</_hlp_level_pos>
+	<_hlp_se>Bascule l'affichage de l'œil de discrétion. (_sivisible)</_hlp_se>
+	<_hlp_se_pos>Ajuste la position de l'œil de discrétion. (_sneak_x, _sneak_y)</_hlp_se_pos>
+	<_hlp_ch>Bascule l'affichage du viseur. (_chvisible)</_hlp_ch>
+	<_hlp_3pch>Bascule l'affichage du viseur à la troisième personne. Tous les icônes d'activation ne seront pas affichés en dehors de l'essentiel et des icônes parlants. (_ch3rdperson)</_hlp_3pch>
+	<_hlp_ehb>Bascule l'affichage de la barre de santé des ennemis/pnj. (_ehbvisible)</_hlp_ehb>
+	<_hlp_he>Cache l'état des personnages essentiels et n'affiche que l'icône de discutions habituel. (_hide_essential)</_hlp_he>
+	<_hlp_msg>Bascule l'affichage des messages de jeu comme "Vous avez découvert...", "Partie sauvegardée", etc. (_msg)</_hlp_msg>
+	<_hlp_msg_pos>Ajuste la position des messages de jeu. Le texte est automatiquement aligné à gauche ou à droite selon dans laquelle moîtié d'écran il réside. (_msg_x, _msg_y)</_hlp_msg_pos>
+	<_hlp_msg_ca>Décale les messages. Utile si vous souhaitez mettre en valeur un autre élément du hud par rapport aux messages. (_msg_ca)</_hlp_msg_ca>
+	<_hlp_msg_gi>Bascule l'affichage de l'icône générique d'Oblivion utilisant par défaut une icône spécifique. (_msg_gi)</_hlp_msg_gi>
+	<_hlp_step>Augmentation et diminution générale de toutes les valeurs Alpha (1-100). Baisser si vous souhaitez affiner la position des éléments.</_hlp_step>
+
+</rect>
