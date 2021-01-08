@@ -15,7 +15,7 @@ Creature Diversity from Zaldir is of course needed, otherwise my mod will have n
 
 Custom interface based on DarNified UI mod `https://www.nexusmods.com/oblivion/mods/10763`
 
-## What are those .ini files ?
+## Optimised .ini files
 
 I'm modding Oblivion since more than 10 years now. I have a very stable game (which runs marvelously well) with my own custom interface (I'll upload a tutorial soon hopefully) and a lot of modifications to keep mods working together. Those .ini files can help people having troubles with the same mods I'm using (you have the BashLoadOrder). 
 
