@@ -13,7 +13,7 @@ Creature Diversity from Zaldir is of course needed, otherwise my mod will have n
 
 ## Custom Interface
 
-Soon
+Custom interface based on DarNified UI mod `https://www.nexusmods.com/oblivion/mods/10763`
 
 ## What are those .ini files ?
 
